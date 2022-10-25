@@ -106,6 +106,7 @@ int render(framebuffer_t *frame, zbuffer_t *z)
 	packets[0] = packet_init(100,PACKET_NORMAL);
 	packets[1] = packet_init(100,PACKET_NORMAL);
 
+    //somehing has gone horribly wrong in c -> cpp in this set of functions
 	// Allocate calculation space.
 	temp_vertices = memalign(128, sizeof(VECTOR) * vertex_count);
 
