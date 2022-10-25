@@ -4,6 +4,9 @@
 #include <iostream> //include also the standard library for c++ so we can convert types and have access to strings
 
 #include <malloc.h> //h
+#include <memory.h> //CPP MEMALLOC LETS GOOOO
+
+
 #include <tamtypes.h>
 #include <math3d.h> //i dont like you.
 
